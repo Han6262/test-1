@@ -1,18 +1,11 @@
-# 깃허브
+### 소스 코드 삽입하기 
 
-- 원격 저장소 만들기
+```javascript
+<script>
+  let now = new Date();
+  let display = new.toLocaleTimeString();
+  document.write(`현재 시각은 ${display} 입니다.`);
+</script>
+```
 
-  - origin 연결하기
-  
-  - push
-
-- fetch와 pull
-
-  - 협업하기
-
-
-# 텍스트 꾸미기
-
-**Github**는 *원격 저장소*를 제공하는 서비스이~기 때문에
-
-온라인 삶에서 Gitdml ***버전 관리기능***을 사용할 수  ㅣㅆ습니다.
+소스 입력 끝!
